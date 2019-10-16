@@ -1,0 +1,9 @@
+// JSON Types
+// Strings "Hello"
+// Numbers 10
+// Booleans true
+// null null
+// Arrary [1,2,3] ["Hello", "World"]
+// Objects {"key": "value"}
+
+

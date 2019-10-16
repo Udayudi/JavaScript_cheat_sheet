@@ -1,0 +1,14 @@
+{
+  "name": "Kiran",
+  "favoriteNumber": "3",
+  "isProgrammer": true,
+  "hobbies": ["Weight Lifting", "Bowling"],
+  "friends": [
+    {
+      "name": "Math",
+      "favoriteNumber": "100",
+      "isProgrammer": false,
+      "friends": ["anything"]
+    }
+  ]
+}
