@@ -1,0 +1,19 @@
+{
+  "name": "js_wds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "array.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Udayudi/JavaScript_cheat_sheet.git"
+  },
+  "author": "Uday Kiran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Udayudi/JavaScript_cheat_sheet/issues"
+  },
+  "homepage": "https://github.com/Udayudi/JavaScript_cheat_sheet#readme"
+}
