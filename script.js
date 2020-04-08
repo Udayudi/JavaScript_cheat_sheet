@@ -1,14 +1,17 @@
-let p = new Promise((resolve, reject) => {
-  let a = 1 + 1;
-  if (a == 2) {
-    resolve("Success");
-  } else {
-    reject("Failed");
-  }
-});
+fetch('https://reqres.in/api/users/', {
 
-p.then(message => {
-  console.log("This is in the then " + message);
-}).catch(message => {
-  console.log("This is in the catch " + message);
-});
+        method : 'POST',
+        headers : {
+          'Content-Type' : 'application/json'
+        },
+        body : JSON.stringify({
+          name: 'User 1'
+        })
+  })
+  .then(res =>  {
+      return res.json()
+  })
+  .then(d => console.log(d))
+  .catch(err => console.log('err'))
+  
+
